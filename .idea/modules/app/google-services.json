@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "565454289662",
+    "firebase_url": "https://dojo-community.firebaseio.com",
+    "project_id": "dojo-community",
+    "storage_bucket": "dojo-community.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565454289662:android:a5868dd1b5c21e295bc3af",
+        "android_client_info": {
+          "package_name": "com.example.vanleenendojoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565454289662-57gr2adk93inaouq0uffda0ufbjp9q8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vanleenendojoapp",
+            "certificate_hash": "511da4b6e1fd463229109561a21cc600be5ea7bb"
+          }
+        },
+        {
+          "client_id": "565454289662-c5p53q8iu9n7bro7kijl0k51s58cb6an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vanleenendojoapp",
+            "certificate_hash": "398726e33954bf471c9838299092e9f7e921f835"
+          }
+        },
+        {
+          "client_id": "565454289662-1psuptfe6gm0amn9eoc2otnn05l7d820.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC93dtEwFUkGu-zXycSMrmrQUUxBQnhR2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565454289662-1psuptfe6gm0amn9eoc2otnn05l7d820.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

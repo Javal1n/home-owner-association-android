@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="22dp"
+            android:src="@drawable/dojo"
+            android:id="@+id/logo_img_view"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="@string/tv_enter_code"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:hint="@string/hint_code"
+        android:layout_marginStart="35dp"
+        android:id="@+id/et_address"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:background="@color/colorOrange"
+        android:alpha="0.80"
+        android:textColor="@color/colorWhite"
+        android:text="@string/btn_verify"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_verify"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:background="@color/colorDarkGrey"
+        android:alpha="0.80"
+        android:textColor="@color/colorWhite"
+        android:text="@string/btn_sign_up"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:id="@+id/btn_sign_up"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="@string/tv_back_to_sign_up"
+            android:textSize="15sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="61dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/tv_go_back"
+            android:textSize="15sp"
+            android:textColor="@color/colorOrange"
+            android:layout_marginTop="18dp"
+            android:id="@+id/tv_go_back"/>
+
+    </LinearLayout>
+</LinearLayout>

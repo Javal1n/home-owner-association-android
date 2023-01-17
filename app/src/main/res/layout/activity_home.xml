@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="605dp"
+        android:id="@+id/list_fragment_container"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_home_24"
+            android:scaleType="fitCenter"
+            android:background="@color/colorWhiteSmoke"
+            android:id="@+id/btn_home"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorWhiteSmoke"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_group_24"
+            android:id="@+id/btn_groups"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorWhiteSmoke"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:id="@+id/btn_profile"/>
+
+    </LinearLayout>
+</LinearLayout>

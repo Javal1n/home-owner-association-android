@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/chad_profile_pic"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/treasurey_meeting_subject"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/sticky_username"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/sticky_text_content"/>
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="310dp"
+            android:text="@string/sticky_timestamp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDarkGrey"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
